@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #002339, #6780bb);
+}
+
+.container {
+    padding: 8%;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    user-select: none;
+}
+
+.container .calculator h1 {
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.container .calculator span{
+    color: #019f55;
+}
+
+.container .calculator .calculate {
+    margin: 25px 0;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    background: #ffffff69;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.container .calculator .calculate input {
+    flex: 1;
+    margin-right: 5px;
+    padding: 10px 15px 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .calculator .calculate input::-webkit-calendar-picker-indicator {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 25px;
+    cursor: pointer;
+}
+
+
+
+.container .calculator .calculate button {
+    border: 0;
+    outline: 0;
+    flex: 0;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    background: #019f55;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container .age {
+    font-size: 20px;
+    font-weight: 400;
+    display: none;
+}
+
+.container .age p span{
+    font-size: 20px;
+    font-weight: 600;
+}
